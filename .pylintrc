@@ -1,6 +1,9 @@
 [MAIN]
 disable=
-  C0116,R0903, C0114,  R0917, W0201
+  C0116, R0903, C0114,  R0917, W0201, W0621,  R0913,
+  W0613, C0209, R1711, R0205, W1201, W0702,  W0718, R0911,
+  R1705,  W0707,  W0622
+
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and

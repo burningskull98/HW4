@@ -1,6 +1,7 @@
 from unittest.mock import Mock, patch
 import json
 import pytest
+import redis
 from my_pr.api import (
     CharField,
     ArgumentsField,
@@ -18,7 +19,7 @@ from my_pr.api import (
     INVALID_REQUEST,
 )
 from my_pr.store import Store
-import redis
+
 
 
 def cases(test_cases):
